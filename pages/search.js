@@ -31,7 +31,7 @@ export async function getServerSideProps(context) {
   //   context.query.searchType && "&searchType=image"
   // }`;
   // console.log(url);
-  let mock = true;
+  let mock = false;
   const startIndex = context.query.start || "1";
 
   const data = mock
