@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import User from "./User";
